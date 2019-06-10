@@ -1,0 +1,197 @@
+body{
+    background-color: #F9F7E5;
+}
+#page{
+    width: 1100px;
+    height: 694px;
+    /*border-style: solid;
+    border-color: red;
+    border-width: 2px;*/
+    margin: 0 auto;
+	background-image: url(../images/fondo.jpg);
+}
+.header{
+    height: 145px;
+}
+.logo{
+	margin: 10px 0px 0px 85px;
+	float:left;
+}
+.banner{
+	/*float:right;
+	font-size: 13px;
+	margin: 3px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position: absolute;*/
+	height: 145px;
+	background-repeat: no-repeat;
+	/*background-size: 801px 141px;*/
+	background-position: 226px 1px;
+	/*background-size: 73% 97%;*/
+	background-image: url(../images/fondoHeader.png);
+	position: relative;
+}
+.banner nav{
+	float: right;
+	/*width: 50x;
+    height: 20px;*/
+	margin: -2px 31px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-image: url(../images/fondoIdiomas.jpg);
+}
+.banner nav a{
+	font-size: 13px;
+	margin: 0px 4px 0px -11px;
+}
+.bandera{
+	margin: 0px 4px -6px 0px;
+}
+.bandera1{
+	margin: 6px 6px -6px 12px;
+}
+.tabs{
+	width: 890px;
+	height: 44px;
+	margin: 98px 0px 0px 132px;
+	position: absolute;
+}
+.tabs li{
+    list-style: none;
+}
+.tabs a{
+    width: 90px;
+	height: 44px;
+    color: white;
+    font-size: 17px;
+    /*margin: 13px 0px -17px 0px;*/
+    text-align: center;
+    padding: 18px 0px 0px 18px;
+    position: absolute;
+    line-height: 10px;
+}
+.tabs c0{
+    margin: 4px -14px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab0.png);
+    display: inline-block;
+}
+.tabs c1{
+    margin: 4px -15px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab1.png);
+    display: inline-block;
+}
+.tabs c2{
+    margin: 4px -17px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab2.png);
+    display: inline-block;
+}
+.tabs c3{
+    margin: 4px -14px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab3.png);
+    display: inline-block;
+    
+}
+.tabs c4{
+    margin: 4px -14px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab4.png);
+    display: inline-block;
+}
+.tabs c5{
+    margin: 4px -17px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab5.png);
+    display: inline-block;
+}
+.tabs c6{
+    margin: 4px -10px 0px 0px;
+    width: 138px;
+	height: 44px;
+    background-image: url(../images/tab6.png);
+    display: inline-block;
+}
+.linea{
+    padding-top: 40px;
+}
+.content{
+    height: 459px;
+}
+.libro{
+    height: 454px;
+    width: 958px;
+    margin: 6px 0px 0px 71px;
+    background-image: url(../images/fondoLibro.jpg);
+}
+.libro nav{
+    width: 489px;
+    height: 450px;
+    float: left;
+}
+.titulo{
+    padding: 33px 0px 0px 27px;
+}
+.libro nav dt{
+    font-size: 18px;
+    width: 395px;
+    height: 47px;
+    margin: 15px 0px 5px 35px;
+    line-height: 18px;
+}
+.libro nav li{
+    font-size: 17px;
+    width: 385px;
+    float: left;
+    margin: -2px 0px 0px 36px;
+    line-height: 18px;
+    list-style: none;
+}
+.libro nav li a{
+    word-spacing: 1px;
+}
+.linkT{
+    font-size: 12px;
+    float: left;
+    margin: 107px 0px 0px 23px;
+    word-spacing: 3px;
+}
+.linkT a1{
+    padding: 13px 0px 0px 0px;
+    margin: 0px 0px 0px 30px;
+    float: left;
+}
+.Ticono{
+    margin: 8px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+.izq{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+    width: 469px;
+    height: 450px;
+}
+.fotoLibro{
+    margin: 45px 0px 0px 145px;
+    padding: 0px 0px 0px 0px;
+}
+.footer{
+    height: 90px;
+}
+.footer nav{
+    font-size: 12px;
+    margin: 3px 0px 0px 476px;
+    padding: 0px 0px 0px 0px;
+    word-spacing: 1px;
+}
